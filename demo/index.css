@@ -1,0 +1,75 @@
+/*Changes the colour of the header to royal blue*/
+.head
+{
+    background-color: royalblue;
+    text-align: center;
+    font-family: "Courier New";
+}
+
+/*Adds a border around the text, changes the colour to light grey, changes the font to Verdana, widens the left margin by 20% and pushes the text to the right as far as possible*/
+.text
+{
+    border-style: solid;
+    background-color: lightgray;
+    font-family: Verdana;
+    margin-left: 20%;
+    float: right;
+}
+
+/*Pushes the image to the left as far as possible and ensures the image is taken out of normal flow*/
+.image
+{
+    float: left;
+    position: absolute;
+}
+
+/*Pushes the image to the left as far as possible, widens the left margin by 20% and ensures the image is taken out of normal flow*/
+.timetable
+{
+    float: left;
+    margin-top: 200px;
+    position: absolute;
+}
+
+/*Positions the text into the middle of the screen, turns the text bold and underlines the text*/
+.table_head
+{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*EFFECTS ALL table ELEMENTS*/
+/*Sets the width to be 375 pixels introduces a black border around the table*/
+table
+{
+    width: 375px;
+    border: #111111 solid;
+}
+
+/*EFFECTS ALL th ELEMENTS*/
+/*Turns all text upper-case, changes the letter spacing, reduces font size by 10%, introduces a 2px sold black border, introduces a 1px solid grey border and all text is aligned to the left*/
+th
+{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+}
+
+/*EFFECTS ALL tr ELEMENTS*/
+/*Changes the background colour to an off-white*/
+tr
+{
+    background-color: #efefef;
+}
+
+/*EFFECTS THE TABLE WHEN THE MOUSE HOVERS OVER*/
+/*Changes the colour of the background to a light grey colour*/
+tr.data:hover
+{
+    background-color: #c3e6e5;
+}
+
